@@ -1,0 +1,20 @@
+@import "../../workbench/collejo/app/src/resources/assets/src/sass/collejo.scss";
+
+.btn{
+	-webkit-box-shadow: 4px 6.9px 16px rgba(99, 117, 138, 0.1);
+    -moz-box-shadow: 4px 6.9px 16px rgba(99, 117, 138, 0.1);
+    box-shadow: 4px 6.9px 16px rgba(99, 117, 138, 0.1); 
+    padding: 10px 20px;
+    border-radius: 45px;
+    font-size: 16px;
+    &.btn-xs{border-radius: 15px;padding: 1px 5px;font-size: 12px;}
+    &.btn-sm{ border-radius: 15px;padding: 5px 10px;font-size: 12px;}
+}
+
+.selectize-control{border-radius:15px;}
+
+.dash-content{
+	.section{
+		a.btn{    margin-top: -5px;}
+	}
+}
